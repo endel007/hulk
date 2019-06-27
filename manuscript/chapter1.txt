@@ -1,13 +1,15 @@
 # Chapter 1
 
-This is some default content for a new Leanpub book.
 
-You can download the manuscript folder containing the plain text files from which this book is generated. That way, you can see how everything in this book is actually written.
 
-Here is the download link for a zip file with the manuscript of this book: [https://github.com/leanpub/default-new-book-content/archive/master.zip](https://github.com/leanpub/default-new-book-content/archive/master.zip).
+## Daily ride counts
 
-Please note you can find our manual here: [https://leanpub.com/help/manual](https://leanpub.com/help/manual).
+A useful way to tabulate and visualize cab rides is by looking at the number of rides according to the calendar day. In this exercise, you'll compute this summary and examine how daily ridership varies by time and the day of week.
 
-We also have a author Help Center here: [http://help.leanpub.com/author-help](http://help.leanpub.com/author-help).
+- Create a daily summary, grouping by the date of pickup (pickup_date) and counting the number of rides, calling the new variable n_rides.
 
-In the following chapters you'll see some simple examples of how to format your writing and how to insert images.
+- Plot the result using ggplot2's geom_line(), with pickup_date on the x-axis and n_rides on the y-axis.
+
+```{r}
+2+2
+```
